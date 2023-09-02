@@ -1,6 +1,6 @@
 # Live Demo
 
-https://atsuno.github.com.io/frontend-mentor-testimonials-grid-section
+https://atsuno.github.io/frontend-mentor-testimonials-grid-section
 
 > The below information is original challenge README from [CHALLENGE Testimonials grid section](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/)
 
