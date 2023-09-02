@@ -15,6 +15,12 @@ module.exports = {
         primarytext: "hsl(0, 0%, 81%)",
         footerlink: "hsl(228, 45%, 44%)",
       },
+      backgroundImage: {
+        'hero-pattern': "url('./images/bg-pattern-quotation.svg')"
+      },
+      backgroundPosition: {
+        'hero-pattern-position': "top right 10%",
+      },
     },
   },
   plugins: [],
