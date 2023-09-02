@@ -22,13 +22,13 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
   </head>
   <body
-    class="h-screen bg-rear grid justify-center font-barlow items-center pt-10"
+    class="min-h-screen bg-rear grid justify-center font-barlow items-center pt-10"
   >
     <main
-      class="grid grid-cols-1 max-w-sm gap-8 md:max-w-5xl md:grid-cols-4 md:grid-rows-4"
+      class="grid grid-cols-1 max-w-sm gap-8 md:max-w-screen-lg md:grid-cols-4 md:grid-flow-col"
     >
       <div
-        class="bg-primary rounded-xl py-8 px-9 bg-hero-pattern bg-no-repeat bg-hero-pattern-position shadow-2xl"
+        class="bg-primary rounded-xl py-8 px-9 bg-hero-pattern bg-no-repeat bg-hero-pattern-position shadow-2xl md:col-start-1 md:col-span-2"
       >
         <div class="grid grid-flow-col w-fit pb-3 items-center">
           <img
@@ -58,7 +58,7 @@
           </p>
         </div>
       </div>
-      <div class="bg-secondly rounded-xl py-8 px-9 shadow-2xl">
+      <div class="bg-secondly rounded-xl py-8 px-9 shadow-2xl md:col-start-3">
         <div class="grid grid-flow-col w-fit pb-3 items-center">
           <img
             class="rounded-full w-10 border-2 border-opacity-50 border-primarytext"
@@ -81,7 +81,7 @@
           </p>
         </div>
       </div>
-      <div class="bg-fourthly rounded-xl py-8 px-9 shadow-2xl">
+      <div class="bg-fourthly rounded-xl py-8 px-9 shadow-2xl md:row-start-2">
         <div class="grid grid-flow-col w-fit pb-3 items-center">
           <img
             class="rounded-full w-10 border-2 border-opacity-50 border-primarytext"
@@ -103,7 +103,9 @@
           </p>
         </div>
       </div>
-      <div class="bg-thirdly rounded-xl py-8 px-9 shadow-2xl">
+      <div
+        class="bg-thirdly rounded-xl py-8 px-9 shadow-2xl md:col-span-2 md:col-start-2 md:h-max"
+      >
         <div class="grid grid-flow-col w-fit pb-3 items-center">
           <img
             class="rounded-full w-10 border-2 border-opacity-50 border-primary"
@@ -131,7 +133,9 @@
           </p>
         </div>
       </div>
-      <div class="bg-fourthly rounded-xl py-8 px-9 shadow-2xl">
+      <div
+        class="bg-fourthly rounded-xl py-8 px-9 shadow-2xl md:col-start-4 md:row-span-2"
+      >
         <div class="grid grid-flow-col w-fit pb-3 items-center">
           <img
             class="rounded-full w-10 border-2 border-opacity-50 border-primarytext"

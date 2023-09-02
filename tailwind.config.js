@@ -19,7 +19,7 @@ module.exports = {
         'hero-pattern': "url('./images/bg-pattern-quotation.svg')"
       },
       backgroundPosition: {
-        'hero-pattern-position': "top right 10%",
+        'hero-pattern-position': "top right 15%",
       },
     },
   },
